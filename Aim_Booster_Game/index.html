@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="aim.css"> 
+        <title>
+            Aim Booster Game
+        </title>
+    </head>
+
+    <body>
+        <div class="menupage">
+            <div class="playbutton">
+                PLAY
+            </div>
+        </div>
+        <div class="cursor">
+            <img src="./img/crosshair.png" alt="no cursor">
+        </div>
+        <div class="target">
+            <img src="./img/target.png" alt="target missing" draggable="false">
+        </div>
+        <div class="score">
+            0
+        </div>
+
+        <div class="timer">
+            
+        </div>
+
+        <audio src="sound/damage.wav" class="damage"></audio>
+        <audio src="sound/shoot.wav" class="shoot"></audio>
+
+        <div class="highscore">
+            HIGHSCORE 0
+        </div>
+        <script src="aim.js"></script>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+
+}
+
+.card{
+    box-shadow: -8px -8px 14px 0px rgba(0,0,0,0.79);
+    -webkit-box-shadow: -8px -8px 14px 0px rgba(0,0,0,0.79);
+    -moz-box-shadow: -8px -8px 14px 0px rgba(0,0,0,0.79);
+    display: inline-block;
+    /*border:1px solid black;*/
+    width:400px;
+    padding: 5px;
+    margin: auto;
+}
+
+.card img{
+    width: 100%;
+}
